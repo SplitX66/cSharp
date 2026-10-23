@@ -35,5 +35,16 @@ namespace multiplica
 			double r = Double.Parse(textBox1.Text)*Double.Parse(textBox2.Text);
 			MessageBox.Show("Multiplicación: " + r);
 		}
+		
+		void Button2Click(object sender, EventArgs e)
+		{
+			textBox1.Text="";
+			textBox2.Text="";			
+		}
+		
+		void Button3Click(object sender, EventArgs e)
+		{
+			Application.Exit();
+		}
 	}
 }
